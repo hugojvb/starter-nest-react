@@ -5,23 +5,20 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "docker-compose up --build",
-		"install": "npm install --workspaces"
+		"install-all": "npm install --workspaces"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hugojvb/starter-nest-react.git"
 	},
 	"workspaces": [
-		"frontend",
-		"backend"
+		"backend",
+		"frontend"
 	],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/hugojvb/starter-nest-react/issues"
 	},
-	"homepage": "https://github.com/hugojvb/starter-nest-react#readme",
-	"devDependencies": {
-		"concurrently": "^6.3.0"
-	}
+	"homepage": "https://github.com/hugojvb/starter-nest-react#readme"
 }
