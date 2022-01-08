@@ -8,6 +8,8 @@ services:
             - POSTGRES_PASSWORD="root"
         volumes:
             - data-volume:/data/db
+        ports:
+            - "3306:3306"
         networks:
             - app-network
     backend:
