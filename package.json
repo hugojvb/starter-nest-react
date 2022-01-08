@@ -5,12 +5,16 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "concurrently \"cd backend && npm run start:debug  \" \"cd frontend && npm start\" ",
-		"install": "concurrently \"cd backend && npm install \" \"cd frontend && npm install\" "
+		"install": "npm install --workspaces"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hugojvb/starter-nest-react.git"
 	},
+	"workspaces": [
+		"frontend",
+		"backend"
+	],
 	"author": "",
 	"license": "ISC",
 	"bugs": {

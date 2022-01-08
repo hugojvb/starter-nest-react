@@ -6,7 +6,7 @@ Made for a quick start in full stack projects using Nest (Node framework) and Re
 
 1. Clone the project
 
-2. Run **npm i** in root directory
+2. Run **npm run install** in root directory
 
 ### Backend Additional Libraries:
 
