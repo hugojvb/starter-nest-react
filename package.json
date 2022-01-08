@@ -4,7 +4,7 @@
 	"description": "Made for a quick start in full stack projects using Nest and React",
 	"main": "index.js",
 	"scripts": {
-		"dev": "docker-compose up --build",
+		"dev": "sudo docker-compose up --build",
 		"install-all": "npm install --workspaces"
 	},
 	"repository": {
