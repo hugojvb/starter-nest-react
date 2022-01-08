@@ -5,7 +5,7 @@ services:
         container_name: postgres
         restart: always
         environment:
-            - POSTGRES_ROOT_PASSWORD="secret"
+            - POSTGRES_PASSWORD="root"
         volumes:
             - data-volume:/data/db
         networks:
